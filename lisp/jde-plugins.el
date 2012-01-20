@@ -194,7 +194,7 @@ With prefix argument ARG, turn on if positive, otherwise off..
 		(easy-menu-add menu-spec jde-plugin-mode-map)
 	      (easy-menu-remove menu-spec))))))
 
-(semantic-add-minor-mode 'jde-plugin-minor-mode " plugin" jde-plugin-mode-map)
+(semantic-add-minor-mode 'jde-plugin-minor-mode " plugin")
 
 
 (provide 'jde-plugins)

@@ -570,7 +570,7 @@ With prefix argument ARG, turn on if positive, otherwise off.
 
   (run-hook-with-args 'jde-bug-minor-mode-hook jde-bug-minor-mode))
 
-(semantic-add-minor-mode 'jde-bug-minor-mode " JDEbug" jde-bug-mode-map)
+(semantic-add-minor-mode 'jde-bug-minor-mode " JDEbug")
 
 ;; (fmakunbound 'jde-bug-key-bindings)
 (defcustom jde-bug-key-bindings

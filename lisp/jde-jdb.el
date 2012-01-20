@@ -1830,7 +1830,7 @@ With prefix argument ARG, turn on if positive, otherwise off..
     (if (featurep 'xemacs)
       (easy-menu-remove jde-jdb-xemacs-menu-spec))))
 
-(semantic-add-minor-mode 'jde-jdb-minor-mode " jdb" jde-jdb-mode-map)
+(semantic-add-minor-mode 'jde-jdb-minor-mode " jdb")
 
 
 ;; (fmakunbound 'jde-jdb-key-bindings)
